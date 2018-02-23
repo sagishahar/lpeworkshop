@@ -15,4 +15,4 @@ The workshop is based on the attack tree below, which covers all known (at the t
 * Exercise Worksheets ([Linux](https://github.com/sagishahar/lpeworkshop/blob/master/Lab%20Exercises%20Walkthrough%20-%20Linux.pdf), [Windows](https://github.com/sagishahar/lpeworkshop/blob/master/Lab%20Exercises%20Walkthrough%20-%20Windows.pdf))
 * [Lab VM for Linux Exercises](https://drive.google.com/file/d/0B6EDpYQYL72rQ2VuWS1QR2ZsUlU/view?usp=sharing) (user:password321, root:password123)
 * [Kali VM for Linux/Windows Exercises](https://drive.google.com/file/d/0B6EDpYQYL72rOElKNGhiLUdzdlE/view?usp=sharing) (root:toor)
-* [Videos for Windows exercises](https://www.youtube.com/playlist?list=PLjG9EfEtwbvIrGFTx4XctK8IxkUJkAEqP)
+* [Videos for Windows Exercises](https://www.youtube.com/playlist?list=PLjG9EfEtwbvIrGFTx4XctK8IxkUJkAEqP)
