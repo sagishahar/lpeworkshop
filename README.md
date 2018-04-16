@@ -16,4 +16,4 @@ The workshop is based on the attack tree below, which covers all known (at the t
 * [Lab VM for Linux Exercises](https://drive.google.com/file/d/0B6EDpYQYL72rQ2VuWS1QR2ZsUlU/view?usp=sharing) (user:password321, root:password123)
 * [Kali VM for Linux/Windows Exercises](https://drive.google.com/file/d/0B6EDpYQYL72rOElKNGhiLUdzdlE/view?usp=sharing) (root:toor)
 * [Videos for Windows Exercises](https://www.youtube.com/playlist?list=PLjG9EfEtwbvIrGFTx4XctK8IxkUJkAEqP)
-* [Tools for Windows Exercises](https://drive.google.com/file/d/1f5SfnaDvvccovkj_Od4SvWG5RGNZ9IZj/view?usp=sharing)
+* [Tools for Windows Exercises](https://drive.google.com/file/d/1Lgg3HXXltB7ZD3F5YSbRl6FX7h_mPzFU/view?usp=sharing)
