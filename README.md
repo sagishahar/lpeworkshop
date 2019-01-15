@@ -17,3 +17,20 @@ The workshop is based on the attack tree below, which covers all known (at the t
 * [Kali VM for Linux/Windows Exercises](https://drive.google.com/file/d/0B6EDpYQYL72rOElKNGhiLUdzdlE/view?usp=sharing) (root:toor)
 * [Videos for Windows Exercises](https://www.youtube.com/playlist?list=PLjG9EfEtwbvIrGFTx4XctK8IxkUJkAEqP)
 * [Tools for Windows Exercises](https://drive.google.com/file/d/1Lgg3HXXltB7ZD3F5YSbRl6FX7h_mPzFU/view?usp=sharing) (7z archive password: lpeworkshop)
+* [Windows exercises setup script](https://github.com/sagishahar/lpeworkshop/blob/master/lpe_windows_setup.bat)
+
+### Setup Instructions for Windows
+1. Start a Windows VM that you legitimately own
+2. Login to the Windows VM using a user account that has administrator privileges
+3. Ensure the Windows VM does not have a user account named 'user'. If it exists, delete it
+4. Copy the setup script (lpe_windows_setup.bat) to a writeable location on a Windows VM (the Desktop directory is fine)
+5. Right click on the copied setup file and ensure to select from the pop-up menu 'run as Administrator'
+6. Read carefully the output of the script
+7. Restart the Windows VM
+8. Copy the Tools 7z archive to the Desktop and extract it
+9. Setup is now complete, enjoy
+
+The script was developed and tested on a Windows 7 (SP1) x64 Build 7601 English-US host. It might work on other OS instances, but it is not guaranteed. Pay attention to the script's output. Some exercises are skipped (e.g. Kernel, etc.) as it depends on the patchlevel of the VM.
+
+NOTE: As with any intentionally vulnerable hosts, ensure the Windows VM is not connected to an externally facing network.
+
