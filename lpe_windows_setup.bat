@@ -48,7 +48,7 @@ call :color 0f "[*] Configuring Exercise 2 - Services (DLL Hijacking)"
 echo.
 call :write_file dllhijackservice.exe
 call :calculate_md5 dllhijackservice.exe, ret_md5_val
-call :confirm_md5_hash "fa 6e 05 03 21 f4 33 af 0e 48 6a cf 88 ee fe 32", "%ret_md5_val%" || goto :eof
+call :confirm_md5_hash "fa6e050321f433af0e486acf88eefe32", "%ret_md5_val%" || goto :eof
 call :move_file dllhijackservice.exe, "C:\Program Files\DLL Hijack Service"
 call :reset_file_permissions "C:\Program Files\DLL Hijack Service\dllhijackservice.exe"
 if not exist "C:\Temp" (
@@ -67,7 +67,7 @@ call :color 0f "[*] Configuring Exercise 3 - Services (binPath)"
 echo.
 call :write_file daclservice.exe
 call :calculate_md5 daclservice.exe, ret_md5_val
-call :confirm_md5_hash "d6 2c fe 23 ad 44 ae 27 95 4d 9b 05 42 96 f2 c3", "%ret_md5_val%" || goto :eof
+call :confirm_md5_hash "d62cfe23ad44ae27954d9b054296f2c3", "%ret_md5_val%" || goto :eof
 call :move_file daclservice.exe, "C:\Program Files\DACL Service"
 call :reset_file_permissions "C:\Program Files\DACL Service\daclservice.exe"
 call :create_service "daclsvc", "C:\Program Files\DACL Service\daclservice.exe", "DACL Service"
@@ -82,7 +82,7 @@ call :color 0f "[*] Configuring Exercise 4 - Services (Unquoted Path)"
 echo.
 call :write_file unquotedpathservice.exe
 call :calculate_md5 unquotedpathservice.exe, ret_md5_val
-call :confirm_md5_hash "d6 2c fe 23 ad 44 ae 27 95 4d 9b 05 42 96 f2 c3", "%ret_md5_val%" || goto :eof
+call :confirm_md5_hash "d62cfe23ad44ae27954d9b054296f2c3", "%ret_md5_val%" || goto :eof
 call :move_file unquotedpathservice.exe, "C:\Program Files\Unquoted Path Service\Common Files"
 call :reset_file_permissions "C:\Program Files\Unquoted Path Service"
 call :create_service "unquotedsvc", "C:\Program Files\Unquoted Path Service\Common Files\unquotedpathservice.exe", "Unquoted Path Service"
@@ -97,7 +97,7 @@ call :color 0f "[*] Configuring Exercise 5 - Services (Registry)"
 echo.
 call :write_file insecureregistryservice.exe
 call :calculate_md5 insecureregistryservice.exe, ret_md5_val
-call :confirm_md5_hash "d6 2c fe 23 ad 44 ae 27 95 4d 9b 05 42 96 f2 c3", "%ret_md5_val%" || goto :eof
+call :confirm_md5_hash "d62cfe23ad44ae27954d9b054296f2c3", "%ret_md5_val%" || goto :eof
 call :move_file insecureregistryservice.exe, "C:\Program Files\Insecure Registry Service"
 call :reset_file_permissions "C:\Program Files\Insecure Registry Service\insecureregistryservice.exe"
 call :create_service "regsvc", "C:\Program Files\Insecure Registry Service\insecureregistryservice.exe", "Insecure Registry Service"
@@ -117,7 +117,7 @@ call :color 0f "[*] Configuring Exercise 6 - Services (Executable File)"
 echo.
 call :write_file filepermservice.exe
 call :calculate_md5 filepermservice.exe, ret_md5_val
-call :confirm_md5_hash "d6 2c fe 23 ad 44 ae 27 95 4d 9b 05 42 96 f2 c3", "%ret_md5_val%" || goto :eof
+call :confirm_md5_hash "d62cfe23ad44ae27954d9b054296f2c3", "%ret_md5_val%" || goto :eof
 call :move_file filepermservice.exe, "C:\Program Files\File Permissions Service"
 call :reset_file_permissions "C:\Program Files\File Permissions Service\filepermservice.exe"
 call :create_service "filepermsvc", "C:\Program Files\File Permissions Service\filepermservice.exe", "File Permissions Service"
@@ -188,11 +188,11 @@ call :color 0f "[*] Configuring Exercise 11 - Password Mining (Configuration Fil
 echo.
 call :write_file Unattend.xml
 call :calculate_md5 Unattend.xml, ret_md5_val
-call :confirm_md5_hash "63 f7 26 9b bc 53 e3 6d 2a 8c 32 37 21 31 3f 9c", "%ret_md5_val%" || goto :eof
+call :confirm_md5_hash "63f7269bbc53e36d2a8c323721313f9c", "%ret_md5_val%" || goto :eof
 call :move_file Unattend.xml, "C:\Windows\Panther"
 call :write_file SiteList.xml
 call :calculate_md5 SiteList.xml, ret_md5_val
-call :confirm_md5_hash "5e e2 85 20 37 31 21 d1 37 e1 51 a2 a7 53 7a 54", "%ret_md5_val%" || goto :eof
+call :confirm_md5_hash "5ee28520373121d137e151a2a7537a54", "%ret_md5_val%" || goto :eof
 call :move_file SiteList.xml, "C:\ProgramData\McAfee\Common Framework"
 call :color 0e "[i] Skipping web.config section of the exercise.."
 echo.
@@ -231,7 +231,7 @@ call :color 0f "[*] Creating final configuration task to run upon restart.."
 echo.
 call :write_file lpe.bat
 call :calculate_md5 lpe.bat, ret_md5_val
-call :confirm_md5_hash "3c 48 bd 51 58 3d 54 87 c0 6f 82 3f 6a 32 d3 03", "%ret_md5_val%" || goto :eof
+call :confirm_md5_hash "3c48bd51583d5487c06f823f6a32d303", "%ret_md5_val%" || goto :eof
 call :move_file lpe.bat, "C:\Temp"
 schtasks /Create /RU "SYSTEM" /SC ONLOGON /TN "lpe" /TR "\"C:\Temp\lpe.bat\"" >nul
 
