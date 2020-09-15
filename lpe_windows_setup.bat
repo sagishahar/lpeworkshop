@@ -492,7 +492,10 @@ exit /b
 set file=%~1
 call :color 0f "[*] Calculating MD5 hash of %file%.."
 echo.
-for /f "tokens=*" %%i in ('certutil -hashfile %file% MD5 ^| find /i /v "md5" ^| find /i /v "certutil"') do set %~2=%%i
+for /f "tokens=*" %%i in ('certutil -hashfile %file% MD5 ^| find /i /v "md5" ^| find /i /v "certutil"') do (
+  set %~2=%%i
+  set %~2=!%~2: =!
+)
 exit /b
 
 :confirm_md5_hash
