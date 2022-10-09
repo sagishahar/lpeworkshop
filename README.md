@@ -13,10 +13,10 @@ The workshop is based on the attack tree below, which covers all known (at the t
 
 * [Workshop Slide Deck](https://github.com/sagishahar/lpeworkshop/blob/master/Local%20Privilege%20Escalation%20Workshop%20-%20Slides.pdf)
 * Exercise Worksheets ([Linux](https://github.com/sagishahar/lpeworkshop/blob/master/Lab%20Exercises%20Walkthrough%20-%20Linux.pdf), [Windows](https://github.com/sagishahar/lpeworkshop/blob/master/Lab%20Exercises%20Walkthrough%20-%20Windows.pdf))
-* [Lab VM for Linux Exercises](https://drive.google.com/file/d/0B6EDpYQYL72rQ2VuWS1QR2ZsUlU/view?usp=sharing) (username: user / password: password321, username: root / password: password123)
-* [Kali VM for Linux/Windows Exercises](https://drive.google.com/file/d/0B6EDpYQYL72rOElKNGhiLUdzdlE/view?usp=sharing) (root:toor)
+* [Lab VM for Linux Exercises](https://www.icloud.com/iclouddrive/0c5M0j7milKwffvV_FcrO0oZg#Debian_6_64-bit_(Workshop)) (username: user / password: password321, username: root / password: password123)
+* [Kali VM for Linux/Windows Exercises](https://www.icloud.com/iclouddrive/00ehXImzPdj4hJ3W-lC2PVOKQ#Kali_2016.2_x64_(Workshop)-003) (root:toor)
 * [Videos for Windows Exercises](https://www.youtube.com/playlist?list=PLjG9EfEtwbvIrGFTx4XctK8IxkUJkAEqP)
-* [Tools for Windows Exercises](https://drive.google.com/file/d/1Lgg3HXXltB7ZD3F5YSbRl6FX7h_mPzFU/view?usp=sharing) (7z archive password: lpeworkshop)
+* [Tools for Windows Exercises](https://www.icloud.com/iclouddrive/081l40jNtagOQNaHCACMN5_sQ#tools) (7z archive password: lpeworkshop)
 * [Windows exercises setup script](https://github.com/sagishahar/lpeworkshop/blob/master/lpe_windows_setup.bat)
 
 ### Setup Instructions for Windows
